@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+**/dist/
+portfolio-frontend/node_modules/
+portfolio-frontend/dist/
+portfolio-frontend/.env
+
+portfolio-backend/target/
+portfolio-backend/src/main/resources/application.properties
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
