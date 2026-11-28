@@ -12,7 +12,10 @@ import com.prakash.portfolio.service.ContactService;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://future-fs-01-g04kwqrtq-dpllabs.vercel.app"
+})
 public class ContactController {
 
     private final ContactService contactService;
